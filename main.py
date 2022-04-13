@@ -4,9 +4,9 @@ import smtplib, ssl
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-sender = "beldegrin.damian@gmail.com"
-rec = "maja.antosiak@gmail.com"
-passwd = "MISZCZUBLUZA"
+sender = input("Podaj email: ")
+rec = input("Podaj odbiorce: ")
+passwd = input("Podaj hasło: ")
 subject = "Prognoza"
 Miasto = 'Gdańsk'
 
